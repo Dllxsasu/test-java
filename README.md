@@ -49,7 +49,30 @@ Expected response: `Hello`
 
 ## Technologies
 
-- **Spring Boot**: 3.2.0
+- **Spring Boot**: 3.4.1
 - **Java**: 21
 - **Maven**: Build tool
+
+## Docker
+
+### Build the Docker Image
+
+```bash
+docker build -t hello-spring-boot .
+```
+
+### Run the Docker Container
+
+```bash
+docker run -p 8080:8080 hello-spring-boot
+```
+
+### Test the Endpoint in Docker
+
+```bash
+curl http://localhost:8080/hello
+```
+
+Or open your browser and navigate to: `http://localhost:8080/hello`
+
 # test-java
