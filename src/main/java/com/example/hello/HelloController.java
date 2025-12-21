@@ -30,6 +30,7 @@ public class HelloController {
             try {
                 Thread.sleep(5000); // Simula lentitud
                 return "🐢 Respuesta lenta original";
+
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
