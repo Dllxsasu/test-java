@@ -29,7 +29,7 @@ public class HelloController {
         Supplier<String> logicaPeligrosa = () -> {
             try {
                 Thread.sleep(5000); // Simula lentitud
-                return "🐢 Respuesta lenta originalasdasdasd";
+                return "🐢 Respuesta lenta originalasdasdssasd";
 
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
