@@ -20,7 +20,7 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Holasdaa Muasdasdsndo desde Kube22rnetes3";
+        return "Holasdaa Muasdasdsndo s Kube22rnetes3";
     }
 
     @GetMapping("/api/lento-manual")
